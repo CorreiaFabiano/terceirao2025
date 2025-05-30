@@ -15,13 +15,18 @@
                             <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
                             <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
                         </ul>
-                            <div id="acessibilidade" class="menu-acessibilidade">
-                                <button id="botao-acessibilidade" class="btn btn-primary">acessibilidade</button>
-                                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
-                                 <button id="aumentar-fonte" class="btn btn-primary fw-bold">A+</button>
-                                 <button id="diminuir-fonte" class="btn btn-primary fw-bold">A-</button>
-                                 <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i class="bi bi-shadows"></i></button>
+                        <div id="acessibilidade" class="menu-acessibilidade">
+                            <button id="botao-acessibilidade" class="btn btn-primary fw-bold
+                            rotacao-botao" aria-expanded="false">acessibilidade</button>
+                            <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                                <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar
+                                o tamanho da fonte">A+</button>
+                                <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="Diminuir
+                                o tamanho da fonte">A-</button>
+                                <button id="alterna-contraste" class="btn btn-primary fw-bold"> <i class="bi
+                                bi-shadows"></i></button>
                             </div>
+                        </div>
                     </nav>
             </header>
 
@@ -40,10 +45,10 @@
             </div>
     </section>
 
-    <section id="tropicalia" class="mr-5 pt-6 secao-tropicalia">
+    <section id="tropicalia" class="mr-5 pt-6 secao-tropicalia" tabindex="0" aria-label="Seção explicativa sobre a Tropicália">
         <div class="container d-flex align-items-center ">
             <div class="col-04 d-flex align-items-center">
-                    <img src="ibagem" alt="rounded-pill" alt="" width="273" height="331" loading="lazy">
+                    <img src="tropicaliazona.jpg" alt="rounded-pill" alt="" width="273" height="331" loading="lazy">
             </div>
              <div class="col-05">
                 <h2>O que foi a Tropicália</h2>
@@ -80,6 +85,7 @@
                 </div>
          </div>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
 
 </body>
 </html>
